@@ -16,6 +16,7 @@ services:
       - "./api:/app"
     ports:
       - "3003:3000"
+       - "9229:9229"
     depends_on:
       - db
 
