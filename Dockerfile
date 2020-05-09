@@ -1,3 +1,3 @@
 FROM node
 WORKDIR /app
-CMD ls -ltr && npm install && npm start
+CMD npm install && npm start
